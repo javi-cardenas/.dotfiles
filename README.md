@@ -8,10 +8,12 @@ Installs all the dependencies within the Brewfile
 brew bundle install
 ```
 
-### For later
+For later...
 
 ```sh
 brew bundle upgrade # shorthand for `brew bundle install --upgrade`
+```
 
+```sh
 brew bundle dump # dump all brew packages into a Brewfile
 ```
